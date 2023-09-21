@@ -1,0 +1,134 @@
+
+body {
+    color: #c08d01;
+    background-image: url(../assets/images/dark-wood1.jpg);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+div {
+    width: 950px;
+    max-width: 1300px;
+    margin-top: 5px auto;
+    margin-bottom: 5px auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e9d69e;
+}
+.content {
+    line-height: 1.4em;
+    padding: 10px;
+}
+header, footer, nav {
+    background-color: #c08d01;
+    color: #e9d69e;
+
+}
+nav ul{
+    
+    margin: 0;
+    padding: 5px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+nav ul li a:link {
+    color: #2200ff;
+    text-decoration: none;
+}
+nav ul li a:visited {
+    color: #760097;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #fa0404;
+    text-decoration: none;
+}
+nav ul li a:active {
+    color: #00ff26;
+    text-decoration: none;
+}
+a {
+    color: #0022ff;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    color: #916601;
+}
+.img-centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+audio, video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+table {
+    width: 800px;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+table td, table th {
+    border: 1px solid #000000;
+    padding: 2px 5px;
+    background-color: #e2ca82;
+}
+table th, table tfoot td {
+    text-transform: uppercase;
+    background-color: #c08d01;
+    color: #e9d69e;
+}
+dt {
+    font-weight: bold;
+}
+footer {
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0px;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+fieldset {
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid #000000;
+    background-color: #e2ca82;
+}
+legend {
+    font-style: italic;
+    background-color: #c08d01;
+    color: #e9d69e;
+    margin: 0 10px;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+input[type=submit] {
+    border: 2px solid #000000;
+    padding: 5px;
+    background-color: #e2ca82;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+input[type=submit]:hover {
+    color: #e9d69e;
+    background-color: #c08d01;
+    cursor: pointer;
+}
